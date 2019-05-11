@@ -26,7 +26,7 @@
 # SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
 
-prefix=/usr/local
+prefix?=/usr/local
 
 datarootdir=$(prefix)/share
 docdir=$(datarootdir)/doc/gitflow
